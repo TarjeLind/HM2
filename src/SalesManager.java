@@ -18,7 +18,7 @@ public class SalesManager {
     public int min() {
         int min = Integer.MAX_VALUE;
         for (int sale : sales) {
-            if (sale > min) {
+            if (sale < min) {
                 min = sale;
             }
         }
